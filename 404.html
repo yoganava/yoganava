@@ -1,146 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="description" content="Hello :-)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
     <title>Yoga Nava</title>
 
-    <link href="http://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet" type="text/css">
-    <style>
-        body {
-            font-family: "Fira Mono", monospace;
-            font-size: 16px;
-            line-height: 1.5;
-            color: #000;
-            text-transform: lowercase;
-        }
+    <link href="http://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet" type="text/css" />
+    <style>body{font-family:"Fira Mono", monospace;font-size:16px;line-height:1.5;color:#000;text-transform:lowercase}a{color:inherit;text-decoration:none}a:hover,a:focus{text-decoration:underline}#hello{opacity:0.66;font-size:80%}#smile{font-family:Arial, Helvetica, "Helvetica Neue", "Liberation Sans", FreeSans, sans-serif;opacity:0.33}#wrap{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}#logo{width:512px;height:512px;background:no-repeat scroll center center;background-image:url("yoganava-512.png")}#text{padding-top:20px;padding-left:30px}@media only screen and (orientation: portrait) and (max-width: 420px){#logo{width:256px;height:256px;background-size:256px 256px}#text{padding-left:10px}}@media only screen and (orientation: landscape) and (max-height: 420px){#logo{width:128px;height:128px;background-size:128px 128px;background-image:url("yoganava-256.png")}#text{padding-top:10px;padding-left:5px;font-size:70%}}@media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min-resolution: 192dpi), only screen and (min-width: 768px) and (min-resolution: 2dppx){#logo{background-image:url("yoganava-1024.png");background-size:512px 512px}}@media only print{#logo{background-image:url("yoganava-1024.png");background-size:512px 512px}}</style>
 
-        /* - - - */
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="apple-mobile-web-app-title" content="Yoga Nava" />
+    <meta name="application-name" content="Yoga Nava" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
 
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-        a:hover,
-        a:focus {
-            text-decoration: underline;
-        }
+    <meta name="twitter:title" content="Yoga Nava" />
+    <meta name="twitter:description" content="Hello :-)" />
+    <meta name="twitter:url" content="http://www.yoganava.net/" />
+    <meta name="twitter:image" content="http://www.yoganava.net/yoganava-1x1.png" />
+    <meta name="twitter:card" content="summary" />
 
-        /* - - - */
-
-        #hello {
-            opacity: 0.66;
-            font-size: 80%;
-        }
-
-        #smile {
-            font-family: Arial, Helvetica, "Helvetica Neue", "Liberation Sans", FreeSans, sans-serif;
-            opacity: 0.33;
-        }
-
-        /* - - - */
-
-        #wrap {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-
-        #logo {
-            width: 512px;
-            height: 512px;
-            background: no-repeat scroll center center;
-            background-image: url("yoganava-512.png");
-        }
-
-        #text {
-            padding-top: 20px;
-            padding-left: 30px;
-        }
-
-        @media only screen and (orientation: portrait) and (max-width: 420px) {
-            #logo {
-                width: 256px;
-                height: 256px;
-                background-size: 256px 256px;
-            }
-            #text {
-                padding-left: 10px;
-            }
-        }
-
-        @media only screen and (orientation: landscape) and (max-height: 420px) {
-            #logo {
-                width: 128px;
-                height: 128px;
-                background-size: 128px 128px;
-                background-image: url("yoganava-256.png");
-            }
-            #text {
-                padding-top: 10px;
-                padding-left: 5px;
-                font-size: 70%;
-            }
-        }
-
-        @media
-        only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
-        only screen and (min-width: 768px) and (   min--moz-device-pixel-ratio: 2),
-        only screen and (min-width: 768px) and (     -o-min-device-pixel-ratio: 2/1),
-        only screen and (min-width: 768px) and (        min-device-pixel-ratio: 2),
-        only screen and (min-width: 768px) and (                min-resolution: 192dpi),
-        only screen and (min-width: 768px) and (                min-resolution: 2dppx) {
-            #logo {
-                background-image: url("yoganava-1024.png");
-                background-size: 512px 512px;
-            }
-        }
-
-        @media only print {
-            #logo {
-                background-image: url("yoganava-1024.png");
-                background-size: 512px 512px;
-            }
-        }
-    </style>
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="apple-mobile-web-app-title" content="Yoga Nava">
-    <meta name="application-name" content="Yoga Nava">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <meta name="twitter:title"       content="Yoga Nava">
-    <meta name="twitter:description" content="Hello :-)">
-    <meta name="twitter:url"         content="http://www.yoganava.net/">
-    <meta name="twitter:image"       content="http://www.yoganava.net/yoganava-1024.png">
-    <meta name="twitter:card"        content="summary">
-
-    <meta property="og:title"        content="Yoga Nava">
-    <meta property="og:description"  content="Hello :-)">
-    <meta property="og:url"          content="http://www.yoganava.net/">
-    <meta property="og:image"        content="http://www.yoganava.net/yoganava-1024.png">
-    <meta property="og:type"         content="website">
-    <meta property="og:locale"       content="en_US" />
+    <meta property="og:title" content="Yoga Nava" />
+    <meta property="og:description" content="Hello :-)" />
+    <meta property="og:url" content="http://www.yoganava.net/" />
+    <meta property="og:image" content="http://www.yoganava.net/yoganava-191x1.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
 </head>
 
 <body>
@@ -148,41 +51,10 @@
         <div id="logo">
         </div>
         <div id="text">
-            <strong>Page Not Found</strong><br>
-            <a href="/">yoganava.net</a>
+            <strong>Page Not Found</strong><br><a href="http://www.yoganava.net/">yoganava.net</a>
         </div>
     </div>
 
-    <script>
-        function shuffle(array) {
-            for (var i = array.length - 1; i > 0; i--) {
-                var j = Math.floor(Math.random() * (i + 1));
-                var temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
-            }
-            return array;
-        }
-
-        var animation = 'pulse 40s infinite alternate';
-        var colors = shuffle(['#ffffff', '#e2e5dd', '#dae5f3', '#ffefdd']);
-
-        document.writeln('<style>');
-        document.writeln('    @-webkit-keyframes pulse { 25% {background-color: ' + colors[0] + ';} 50% {background-color: ' + colors[1] + ';} 75% {background-color: ' + colors[2] + ';} 100% {background-color: ' + colors[3] + ';} }');
-        document.writeln('            @keyframes pulse { 25% {background-color: ' + colors[0] + ';} 50% {background-color: ' + colors[1] + ';} 75% {background-color: ' + colors[2] + ';} 100% {background-color: ' + colors[3] + ';} }');
-        document.writeln('    body { -webkit-animation: ' + animation + '; animation: ' + animation + '; background-color: ' + colors[0] + '; }');
-        document.writeln('</style>');
-
-        // - - -
-
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-68145635-1', 'auto');
-        ga('require', 'linkid');
-        ga('send', 'pageview');
-    </script>
+    <script>function shuffle(o){for(var e=o.length-1;e>0;e--){var n=Math.floor(Math.random()*(e+1)),r=o[e];o[e]=o[n],o[n]=r}return o}var animation="pulse 40s infinite alternate",colors=shuffle(["#ffffff","#e2e5dd","#dae5f3","#ffefdd"]);document.writeln("<style>"),document.writeln("    @-webkit-keyframes pulse { 25% {background-color: "+colors[0]+";} 50% {background-color: "+colors[1]+";} 75% {background-color: "+colors[2]+";} 100% {background-color: "+colors[3]+";} }"),document.writeln("            @keyframes pulse { 25% {background-color: "+colors[0]+";} 50% {background-color: "+colors[1]+";} 75% {background-color: "+colors[2]+";} 100% {background-color: "+colors[3]+";} }"),document.writeln("    body { -webkit-animation: "+animation+"; animation: "+animation+"; background-color: "+colors[0]+"; }"),document.writeln("</style>"),function(o,e,n,r,a,c,t){o.GoogleAnalyticsObject=a,o[a]=o[a]||function(){(o[a].q=o[a].q||[]).push(arguments)},o[a].l=1*new Date,c=e.createElement(n),t=e.getElementsByTagName(n)[0],c.async=1,c.src=r,t.parentNode.insertBefore(c,t)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-68145635-1","auto"),ga("require","linkid"),ga("send","pageview");</script>
 </body>
 </html>
